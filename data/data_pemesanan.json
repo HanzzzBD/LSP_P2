@@ -1,0 +1,23 @@
+[
+    {
+        "Nama_Pemesan": "Hadrian Rangga Ardiantara",
+        "No_Hp": "089637037236",
+        "Jenis Barang": "Penghapus",
+        "Jumlah": 1000,
+        "Total_Biaya": 1350000
+    },
+    {
+        "Nama_Pemesan": "Andika Rasya Putra ",
+        "No_Hp": "0987654323456789012983487498394",
+        "Jenis Barang": "Buku",
+        "Jumlah": 0,
+        "Total_Biaya": 0
+    },
+    {
+        "Nama_Pemesan": "Hadrian Rangga Ardiantara",
+        "No_Hp": "089637037236",
+        "Jenis Barang": "Buku",
+        "Jumlah": 82,
+        "Total_Biaya": 369000
+    }
+]

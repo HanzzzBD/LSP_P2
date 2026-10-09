@@ -1,0 +1,50 @@
+.orders-table-wrapper {
+    border: 0;
+    overflow-y: hidden;
+}
+
+.orders-table-wrapper:focus-visible {
+    outline: 2px solid var(--bs-primary);
+    outline-offset: 4px;
+}
+
+.orders-table {
+    --bs-table-border-color: var(--bs-border-color);
+    --bs-table-hover-bg: var(--bs-tertiary-bg);
+    min-width: 40rem;
+    margin-bottom: 0;
+    border: 0;
+}
+
+.orders-table > :not(caption) > * > * {
+    padding: 1rem;
+    border: 0;
+    border-bottom: var(--bs-border-width) solid var(--bs-table-border-color);
+}
+
+.orders-table > :not(caption) > * > * + * {
+    border-left: var(--bs-border-width) solid var(--bs-table-border-color);
+}
+
+.orders-table > thead > tr > th {
+    border-top: var(--bs-border-width) solid var(--bs-table-border-color);
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    font-size: 0.875rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.orders-table > tbody > tr > td:first-child {
+    overflow-wrap: anywhere;
+}
+
+.orders-number {
+    font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 575.98px) {
+    .orders-table > :not(caption) > * > * {
+        padding: 0.75rem;
+    }
+}

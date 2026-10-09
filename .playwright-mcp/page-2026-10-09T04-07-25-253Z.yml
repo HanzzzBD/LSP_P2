@@ -1,0 +1,48 @@
+- generic [ref=e2]:
+  - heading "Pemesanan Alat Tulis Kantor" [level=1] [ref=e4]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: Nama Pelanggan
+      - textbox "Nama Pelanggan" [ref=e8]:
+        - /placeholder: Masukan Nama Anda
+    - generic [ref=e9]:
+      - generic [ref=e10]: No Hp
+      - spinbutton "No Hp" [ref=e11]
+    - generic [ref=e12]:
+      - generic [ref=e13]: Jenis Barang
+      - combobox "Jenis Barang" [ref=e14]:
+        - option "Buku" [selected]
+        - option "Penghapus"
+        - option "Pensil"
+        - option "Pulpen"
+    - generic [ref=e15]:
+      - generic [ref=e16]: Jumlah Barang
+      - spinbutton "Jumlah Barang" [ref=e17]
+    - button "Kirim Pemesanan" [ref=e18] [cursor=pointer]
+  - region [ref=e19]:
+    - generic [ref=e20]:
+      - heading "Data Pemesanan" [level=2] [ref=e21]
+      - generic [ref=e22]: 2 pesanan
+    - region "Data Pemesanan" [ref=e23]:
+      - table [ref=e24]:
+        - caption [ref=e25]: Daftar pemesanan alat tulis kantor
+        - rowgroup [ref=e26]:
+          - row [ref=e27]:
+            - columnheader "Nama Pelanggan" [ref=e28]
+            - columnheader "No. HP" [ref=e29]
+            - columnheader "Jenis Barang" [ref=e30]
+            - columnheader "Jumlah" [ref=e31]
+            - columnheader "Total Biaya" [ref=e32]
+        - rowgroup [ref=e33]:
+          - row [ref=e34]:
+            - cell "Hadrian Rangga Ardiantara" [ref=e35]
+            - cell "089637037236" [ref=e36]
+            - cell "Penghapus" [ref=e37]
+            - cell "1000" [ref=e38]
+            - cell "Rp 1.350.000" [ref=e39]
+          - row [ref=e40]:
+            - cell "Andika Rasya Putra" [ref=e41]
+            - cell "0987654323456789012983487498394" [ref=e42]
+            - cell "Buku" [ref=e43]
+            - cell "0" [ref=e44]
+            - cell "Rp 0" [ref=e45]
